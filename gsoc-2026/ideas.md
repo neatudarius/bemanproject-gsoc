@@ -27,6 +27,39 @@ Below are a list of open projects for the Beman Project which can be developed a
 
 ---
 
+### Beman implementation of P2980: Physical quantities and units (beman.units)
+
+| | |
+|-|-|
+| **Difficulty** | 3/5 |
+| **Project Size** | Medium (175 hours) |
+| **Maximum instances** | 1 |
+| **Constraints/requirements** | strong C\+\+ skills, familiarity with physical quantities/units (e.g. [mp-units](https://github.com/mpusz/mp-units), [Boost.Units](https://www.boost.org/doc/libs/1_83_0/doc/html/boost_units.html)), and C\+\+ standardization. |
+
+#### Description
+
+[P2980R0](https://open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2980r0.html) is a proposal for C++26 that outlines the motivation, scope, and plan for a physical quantities and units library: type-safe quantities and units, affine space, I/O, and extensibility. This project aims to provide a **Beman-style implementation** of that design and to experiment with implementation options that could inform the standard.
+
+Existing implementations include [mp-units](https://github.com/mpusz/mp-units) (reference implementation for the proposal) and [Boost.Units](https://www.boost.org/doc/libs/1_83_0/doc/html/boost_units.html). A Beman implementation would follow the [Beman Standard](https://github.com/bemanproject/beman/blob/main/docs/beman_standard.md), align with P2980 / the evolving C\+\+ Standard design, and serve as a testbed for implementation choices.
+
+Deliverables could include:
+
+1. **Design and implement beman.units** - Core types and operations for quantities and units (e.g. quantity, unit, dimensions), following P2980 and the Beman Standard.
+2. **Experiment with implementation options** - Try different design choices (e.g. representation, dimensions, I/O) and document trade-offs; compare with mp-units and Boost.Units where useful.
+3. **Document and test** - Document the API, portability, and limitations; add tests and examples.
+
+Success will give the community an alternative implementation to experiment with and will help inform the standardization of a physical quantities and units library for C\+\+26/C\+\+29.
+
+#### Reading & Related Material
+
+* [P2980R0](https://open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2980r0.html) - A motivation, scope, and plan for a physical quantities and units library (C++26)
+* [mp-units](https://github.com/mpusz/mp-units) - Reference implementation for the proposal
+* [Boost.Units](https://www.boost.org/doc/libs/1_83_0/doc/html/boost_units.html) - Boost physical quantities and units library
+* [exemplar](https://github.com/bemanproject/exemplar) - Template library for new Beman libraries
+* [Beman Project](https://bemanproject.org/) and [Beman Standard](https://github.com/bemanproject/beman/blob/main/docs/beman_standard.md)
+
+---
+
 ### beman-tidy: Complete the tool and integrate it into Beman infrastructure
 
 | | |
