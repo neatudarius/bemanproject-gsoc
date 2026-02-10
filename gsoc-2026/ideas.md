@@ -58,7 +58,7 @@ Success will give contributors a single, automated way to keep repositories alig
 
 ---
 
-### Enhance std::execution (beman.execution & friends)
+### std::execution - Enhancements (beman.execution & friends)
 
 | | |
 |-|-|
@@ -89,7 +89,7 @@ Success will make beman.execution more usable for real-world async C++ code and 
 
 ---
 
-### Portable environment variables API (beman.env)
+### std::env - Portable environment variables API (beman.env)
 
 | | |
 |-|-|
