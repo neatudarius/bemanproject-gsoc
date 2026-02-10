@@ -8,7 +8,7 @@ You can reach the community through these channels:
 
 * **[Website](https://bemanproject.org/)** — The Beman Project website and [blog](https://bemanproject.org/blog).
 * **[GitHub](https://github.com/bemanproject)** — The Beman Project repositories: browse, build and run the libraries or the tooling.
-* **[Discourse](https://discourse.bemanproject.org/)** — Project-wide discussions, library implementations, infrastructure, website and docs, blog comments. The best way to stay up to date with the most recent developments.
+* **[Discourse](https://discourse.bemanproject.org/)** — Project-wide discussions, library implementations, infrastructure, website and docs, blog comments. The official place to propose new GSoC ideas; when posting, **tag all people from this repo's [CODEOWNERS](.github/CODEOWNERS)** so they can follow and respond.
 * **[Discord](https://discord.com/invite/BKpNyJgSbm)** — There is a [**#gsoc** channel](https://discord.com/channels/1457903855898460405/1470578839540465970) for GSoC-related questions, project ideas and mentors.
 
 The community is ready to help: ask questions, discuss project ideas and get in touch with mentors.
