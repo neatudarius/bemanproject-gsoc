@@ -15,9 +15,13 @@ Contributing here means working on production-quality C++, standards alignment, 
 Mentors will be assigned when the project is initiated. Please feel free to reach out beforehand to discuss the project.
 
 | Mentor | Email |
-|:-----------------:|:-------------------:|
-| [*Add mentor name*](https://github.com/*add-mentor-username*) | *email@example.com* |
-| [*Add mentor name*](https://github.com/*add-mentor-username*) | *email@example.com* |
+|--------|-------|
+| [Darius Neațu](https://github.com/neatudarius) | neatudarius@gmail.com |
+| [Dietmar Kühl](https://github.com/camio) | dietmar.kuehl@gmail.com |
+| [Eddie Nolan](https://github.com/ednolan) | EddieJNolan@gmail.com |
+| [Inbal Levi](https://github.com/inbal2l) | sinbal2lextra@gmail.com |
+| [Jeff Garland](https://github.com/JeffGarland) | jeff@crystalclearsoftware.com |
+| [Radu Nichita](https://github.com/RaduNichita) | radunichita99@gmail.com |
 
 Below are a list of open projects for the Beman Project which can be developed as part of GSoC26.
 
