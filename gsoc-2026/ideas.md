@@ -93,7 +93,7 @@ Success will give the community an alternative implementation to experiment with
 
 Only about 50% of the planned features are implemented today. The project has several phases:
 
-1. **Complete the tool** - Implement the remaining features so that beman-tidy fully covers the Beman Standard.
+1. **Complete the tool** - Implement the remaining features so that beman-tidy fully covers the Beman Standard. Examples of missing features include: CMake-related checks, C++ in-source checks, etc.
 2. **Validate on exemplar** - Run beman-tidy on the [exemplar](https://github.com/bemanproject/exemplar) project and fix any gaps (in the tool or in the Beman Standard).
 3. **Run on all Beman libraries** - Apply beman-tidy across all [Beman libraries](https://bemanproject.org/libraries); fix issues and improve the tool as needed.
 4. **Integrate into infrastructure** - Make beman-tidy part of the Beman Project infrastructure and run it on CI (e.g. GitHub Actions) on every pull request.
