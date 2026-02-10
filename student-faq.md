@@ -18,11 +18,11 @@ The community is ready to help: ask questions, discuss project ideas and get in 
 Your mentors are the people you will interact with the most during your project; your guides and the ones that will solidify your integration into the organization.
 They are also the people that will pass/fail you, so communicating with them not only regarding your issues, but your success too, should be on your TODO list.
 
-## What are the midterm evaluations? What about the final evaluations?
+## What are the midterm and final evaluations?
 
-They are key stages in your project. They require feedback from both the mentor and the mentee and they determine the status of your project; they also represent a great way for the mentor to decide whether your work will end successfully, therefore (potentially) integrating it.
+GSoC has **two** evaluations: a **midterm** (around the middle of the coding period) and a **final** (at the end, when you also submit your work product). For a standard 12‑week project, the midterm is at the end of week 6 and the final after week 12. For 8‑week projects, the midterm is after week 4 and the final after week 8. See the [official GSoC Evaluations guide](https://google.github.io/gsocguides/student/evaluations) and the [GSoC timeline](https://developers.google.com/open-source/gsoc/timeline) for exact dates and rules.
 
-As stated earlier, both evaluations are a pass/fail from the mentors, so mark the dates in your calendar. They are important!
+Both evaluations are key stages: they require feedback from you and your mentor and determine whether you pass or fail. The pass/fail decision should not be a surprise if you stay in touch with your mentor. **Mark the evaluation dates in your calendar** — they are important. If you do not complete the final evaluation (including the link to your work product), you will fail the program.
 
 ## What should I be doing during the community bonding period?
 
