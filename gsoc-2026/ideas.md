@@ -25,8 +25,8 @@ title: Google Summer of Code 2026 Ideas List
 Thank you for your interest in participating in [Google Summer of Code 2026 (GSoC26)](https://summerofcode.withgoogle.com/programs/2026)!
 
 The Beman Project is a modern C++ libraries initiative: "Tomorrow's C++ Standard Libraries Today!"
-It hosts implementations targeting current and upcoming C++ standards, including proposals for the C++ standard library and related tooling.
-Contributing here means working on production-quality C++, standards alignment, and open source library development.
+It hosts implementations targeting current and upcoming C++ Standards, including proposals for the C++ Standard library and related tooling.
+Contributing here means working on production-quality C++, ISO Standards alignment, and open source library development.
 
 ## Mentors of the projects
 
@@ -52,13 +52,13 @@ Below is a list of open projects for the Beman Project which can be developed as
 | **Difficulty** | 3/5 |
 | **Project Size** | Medium (175 hours) |
 | **Maximum instances** | 1 |
-| **Constraints/requirements** | strong C\+\+ skills, familiarity with physical quantities/units (e.g. [mp-units](https://github.com/mpusz/mp-units), [Boost.Units](https://www.boost.org/doc/libs/1_83_0/doc/html/boost_units.html)), and C\+\+ standardization. |
+| **Constraints/requirements** | strong C++ skills, familiarity with physical quantities/units (e.g. [mp-units](https://github.com/mpusz/mp-units), [Boost.Units](https://www.boost.org/doc/libs/1_83_0/doc/html/boost_units.html)), and C++ standardization. |
 
 #### Description
 
-[P2980R0](https://open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2980r0.html) is a proposal for C++26 that outlines the motivation, scope, and plan for a physical quantities and units library: type-safe quantities and units, affine space, I/O, and extensibility. This project aims to provide a **Beman-style implementation** of that design and to experiment with implementation options that could inform the standard.
+[P2980R0](https://open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2980r0.html) is a proposal for C++26 that outlines the motivation, scope, and plan for a physical quantities and units library: type-safe quantities and units, affine space, I/O, and extensibility. This project aims to provide a **Beman-style implementation** of that design and to experiment with implementation options that could inform the ISO C++ Standard.
 
-Existing implementations include [mp-units](https://github.com/mpusz/mp-units) (reference implementation for the proposal) and [Boost.Units](https://www.boost.org/doc/libs/1_83_0/doc/html/boost_units.html). A Beman implementation would follow the [Beman Standard](https://github.com/bemanproject/beman/blob/main/docs/beman_standard.md), align with P2980 / the evolving C\+\+ Standard design, and serve as a testbed for implementation choices.
+Existing implementations include [mp-units](https://github.com/mpusz/mp-units) (reference implementation for the proposal) and [Boost.Units](https://www.boost.org/doc/libs/1_83_0/doc/html/boost_units.html). A Beman implementation would follow the [Beman Standard](https://github.com/bemanproject/beman/blob/main/docs/beman_standard.md), align with P2980 / the evolving C++ Standard design, and serve as a testbed for implementation choices.
 
 Deliverables could include:
 
@@ -66,7 +66,7 @@ Deliverables could include:
 2. **Experiment with implementation options** - Try different design choices (e.g. representation, dimensions, I/O) and document trade-offs; compare with mp-units and Boost.Units where useful.
 3. **Document and test** - Document the API, portability, and limitations; add tests and examples.
 
-Success will give the community an alternative implementation to experiment with and will help inform the standardization of a physical quantities and units library for C\+\+26/C\+\+29.
+Success will give the community an alternative implementation to experiment with and will help inform the standardization of a physical quantities and units library for C++26/C++29.
 
 #### Reading & Related Material
 
@@ -94,7 +94,7 @@ Success will give the community an alternative implementation to experiment with
 Only about 50% of the planned features are implemented today. The project has several phases:
 
 1. **Complete the tool** - Implement the remaining features so that beman-tidy fully covers the Beman Standard.
-2. **Validate on exemplar** - Run beman-tidy on the [exemplar](https://github.com/bemanproject/exemplar) project and fix any gaps (in the tool or in the standard).
+2. **Validate on exemplar** - Run beman-tidy on the [exemplar](https://github.com/bemanproject/exemplar) project and fix any gaps (in the tool or in the Beman Standard).
 3. **Run on all Beman libraries** - Apply beman-tidy across all [Beman libraries](https://bemanproject.org/libraries); fix issues and improve the tool as needed.
 4. **Integrate into infrastructure** - Make beman-tidy part of the Beman Project infrastructure and run it on CI (e.g. GitHub Actions) on every pull request.
 
@@ -126,7 +126,7 @@ The project could follow phases such as:
 
 1. **Implement additional data structures** - A concurrent queue, a ring buffer, or similar building blocks for async pipelines.
 2. **Implement missing algorithms** - Algorithms such as `when_any`, `sequence`, `repeat`, or refinements of existing algorithms in the execution model.
-3. **Document, test, and align** - Ensure components are well-documented and tested, and align with the evolving std::execution design. Identify which components might be candidates for the C++ standard.
+3. **Document, test, and align** - Ensure components are well-documented and tested, and align with the evolving std::execution design. Identify which components might be candidates for the C++ Standard.
 4. **Draft a standardization proposal for C++29** - Draft and submit a WG21 paper (or contribute to an existing one) proposing one or more of the implemented components for C++29.
 
 Success will make beman.execution more usable for real-world async C++ code and will align it better with the evolving std::execution design; some of the work may feed into future standardization.
@@ -134,7 +134,7 @@ Success will make beman.execution more usable for real-world async C++ code and 
 #### Reading & Related Material
 
 * [beman.execution](https://github.com/bemanproject/execution), [beman.net](https://github.com/bemanproject/net), [beman.task](https://github.com/bemanproject/task).
-* [P2300 std::execution](https://wg21.link/p2300) - C++ Working Draft model (soon to beC++26)
+* [P2300 std::execution](https://wg21.link/p2300) - C++ Working Draft model (soon to be C++26)
 * [exemplar](https://github.com/bemanproject/exemplar) - Template library for new Beman libraries
 * [Beman Project](https://bemanproject.org/) and [Beman libraries](https://bemanproject.org/libraries)
 
@@ -147,18 +147,18 @@ Success will make beman.execution more usable for real-world async C++ code and 
 | **Difficulty** | 4/5 |
 | **Project Size** | Large (350 hours) |
 | **Maximum instances** | 2 |
-| **Constraints/requirements** | strong C\+\+ skills, familiarity with platform APIs (POSIX, Windows), and C\+\+ Standardization process (or eager to learn). |
+| **Constraints/requirements** | strong C++ skills, familiarity with platform APIs (POSIX, Windows), and C++ Standardization process (or eager to learn). |
 
 #### Description
 
-There is no standard C++ portable API for manipulating environment variables. The standard provides only `std::getenv()` (from `<cstdlib>`) for reading; setting, unsetting, or enumerating variables relies on platform-specific APIs (`setenv`/`unsetenv` on POSIX, `SetEnvironmentVariable` on Windows), which are not portable. A portable API would benefit cross-platform applications, build tooling, and tests.
+There is no standard C++ portable API for manipulating environment variables. The C++ Standard provides only `std::getenv()` (from `<cstdlib>`) for reading; setting, unsetting, or enumerating variables relies on platform-specific APIs (`setenv`/`unsetenv` on POSIX, `SetEnvironmentVariable` on Windows), which are not portable. A portable API would benefit cross-platform applications, build tooling, and tests.
 
 The project consists of:
 
 1. **Implement a portable API - beman.env** - Design and implement a C++ library that provides a portable interface for getting, setting, unsetting, and enumerating environment variables across major platforms (e.g. Linux, macOS, Windows).
 2. **Compare with well-known implementations** - Review and document how beman.env relates to existing solutions (e.g. [Boost.Process](https://www.boost.org/doc/libs/master/doc/html/boost/process/env.html) environment handling, platform-specific APIs). Identify gaps, design choices, and improvements to inform the API and the proposal.
 3. **Test and verify on various environments** - Run the library on multiple platforms and toolchains; fix portability issues and document behavior and limitations.
-4. **Draft a standardization proposal for C++29** - Write a WG21 paper (or contribute to an existing one) proposing a portable environment-variables API for the C++ standard (e.g. for C++29).
+4. **Draft a standardization proposal for C++29** - Write a WG21 paper (or contribute to an existing one) proposing a portable environment-variables API for the C++ Standard (e.g. for C++29).
 
 Success will give users a single, portable way to work with environment variables in C++ and will provide a concrete basis for a future `std::env` or similar facility.
 
@@ -178,7 +178,7 @@ Success will give users a single, portable way to work with environment variable
 | **Difficulty** | 2/5 |
 | **Project Size** | Medium (175 hours) |
 | **Maximum instances** | 1 |
-| **Constraints/requirements** | C++ concepts (C\+\+20), familiarity with the C\+\+ Standard and Beman libraries. |
+| **Constraints/requirements** | C++ concepts (C++20), familiarity with the C++ Standard and Beman libraries. |
 
 #### Description
 
@@ -195,7 +195,7 @@ Success will make it easier for contributors to use concepts consistently in Bem
 
 * [Beman Project](https://bemanproject.org/) and [beman](https://github.com/bemanproject/beman) repo (docs, Beman Standard)
 * [exemplar](https://github.com/bemanproject/exemplar) - Template library for new Beman libraries
-* C\+\+20 concepts and the C\+\+ Standard (e.g. [cppreference concepts](https://en.cppreference.com/w/cpp/language/constraints))
+* C++20 concepts and the C++ Standard (e.g. [cppreference concepts](https://en.cppreference.com/w/cpp/language/constraints))
 
 ---
 

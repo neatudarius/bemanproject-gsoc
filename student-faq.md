@@ -2,7 +2,7 @@
 
 ## I want to know more about The Beman Project. Where should I start?
 
-A good place to start is the [The Beman Project website](https://bemanproject.org/), where we also share experiences and insights via the [blog](https://bemanproject.org/blog). For more context, see the [About Beman](https://bemanproject.org/2024/10/30/about-beman/) page.
+A good place to start is the [Beman Project website](https://bemanproject.org/), where we also share experiences and insights via the [blog](https://bemanproject.org/blog). For more context, see the [About Beman](https://bemanproject.org/2024/10/30/about-beman/) page.
 
 You can reach the community through these channels:
 

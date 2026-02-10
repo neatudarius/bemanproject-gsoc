@@ -8,11 +8,11 @@ Table of Contents
 
 ## Introduction
 
-Make your way into open-source development with C++ standards, modern libraries and cutting-edge tooling. Apply to [GSoC26](https://summerofcode.withgoogle.com/) with the [The Beman Project](https://bemanproject.org/).
+Make your way into open-source development with C++ standards, modern libraries and cutting-edge tooling. Apply to [GSoC26](https://summerofcode.withgoogle.com/) with the [Beman Project](https://bemanproject.org/).
 
 [Google Summer of Code 2026](https://summerofcode.withgoogle.com/) (GSoC'26) is a global online program focused on bringing new contributors into open-source software development. GSoC Contributors work with an open-source organization, such as The Beman Project, on a 12+ week programming project under the guidance of mentors.
 
-The [The Beman Project](https://bemanproject.org/) is a modern C++ libraries initiative: "Tomorrow's C++ Standard Libraries Today!"
+The [Beman Project](https://bemanproject.org/) is a modern C++ libraries initiative: "Tomorrow's C++ Standard Libraries Today!"
 It hosts implementations targeting current and upcoming C++ standards (C++26, C++29), including proposals for [std::optional extensions](https://github.com/bemanproject/optional), [std::execution](https://github.com/bemanproject/execution), upcoming scope guard, etc.
 
 Before you apply, see the [GSoC contributor eligibility](https://summerofcode.withgoogle.com/get-started).
