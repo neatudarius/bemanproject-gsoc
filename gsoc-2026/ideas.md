@@ -2,6 +2,25 @@
 title: Google Summer of Code 2026 Ideas List
 ---
 
+Table of Contents
+- [The Beman Project Ideas](#the-beman-project-ideas)
+- [Mentors of the projects](#mentors-of-the-projects)
+  - [Beman implementation of P2980: Physical quantities and units (beman.units)](#beman-implementation-of-p2980-physical-quantities-and-units-bemanunits)
+    - [Description](#description)
+    - [Reading \& Related Material](#reading--related-material)
+  - [beman-tidy: Complete the tool and integrate it into Beman infrastructure](#beman-tidy-complete-the-tool-and-integrate-it-into-beman-infrastructure)
+    - [Description](#description-1)
+    - [Reading \& Related Material](#reading--related-material-1)
+  - [std::execution - Enhancements (beman.execution \& friends)](#stdexecution---enhancements-bemanexecution--friends)
+    - [Description](#description-2)
+    - [Reading \& Related Material](#reading--related-material-2)
+  - [std::env - Portable environment variables API (beman.env)](#stdenv---portable-environment-variables-api-bemanenv)
+    - [Description](#description-3)
+    - [Reading \& Related Material](#reading--related-material-3)
+  - [Add guidance for "concepts" usage in Beman libraries](#add-guidance-for-concepts-usage-in-beman-libraries)
+    - [Description](#description-4)
+    - [Reading \& Related Material](#reading--related-material-4)
+
 ## The Beman Project Ideas
 
 Thank you for your interest in participating in [Google Summer of Code 2026 (GSoC26)](https://summerofcode.withgoogle.com/programs/2026)!
