@@ -94,8 +94,8 @@ Success will make beman.execution more usable for real-world async C++ code and 
 | | |
 |-|-|
 | **Difficulty** | 4/5 |
-| **Project Size** | 450 hours |
-| **Maximum instances** | 1 |
+| **Project Size** | Large (350 hours) |
+| **Maximum instances** | 2 |
 | **Constraints/requirements** | Strong C++ skills, familiarity with platform APIs (POSIX, Windows), and C++ Standardization process (or eager to learn). |
 
 #### Description
@@ -117,6 +117,34 @@ Success will give users a single, portable way to work with environment variable
 * [Boost.Process environment](https://www.boost.org/doc/libs/master/doc/html/boost/process/env.html) - Boost environment handling (e.g. for child processes)
 * [exemplar](https://github.com/bemanproject/exemplar) - Template library for new Beman libraries
 * [Beman Project](https://bemanproject.org/) and [Beman libraries](https://bemanproject.org/libraries)
+
+---
+
+### Add guidance for "concepts" usage in Beman libraries
+
+| | |
+|-|-|
+| **Difficulty** | 2/5 |
+| **Project Size** | Medium (175 hours) |
+| **Maximum instances** | 1 |
+| **Constraints/requirements** | C++ concepts (C\+\+20), familiarity with the C++Sstandard and Beman libraries. |
+
+#### Description
+
+Define guidelines for using *concepts* in Beman libraries so that newcomers who want to write a paper (or contribute a library) as part of Beman have clear, consistent guidance. The guidelines should cover when to use exposition-only concepts vs. real (standard-deduced) concepts, and how to align with the C++ standard.
+
+Deliverables could include:
+
+1. **Document guidelines** - Write a guide (e.g. in the [beman](https://github.com/bemanproject/beman) repo docs) that explains concepts usage: exposition-only vs. real concepts, naming, and how to derive practice from the standard.
+2. **Examples and alignment** - Provide examples from existing Beman libraries and from the standard; document recommended patterns for new papers and libraries.
+
+Success will make it easier for contributors to use concepts consistently in Beman libraries and in standardization work.
+
+#### Reading & Related Material
+
+* [Beman Project](https://bemanproject.org/) and [beman](https://github.com/bemanproject/beman) repo (docs, Beman Standard)
+* [exemplar](https://github.com/bemanproject/exemplar) - Template library for new Beman libraries
+* C\+\+20 concepts and the C\+\+ Standard (e.g. [cppreference concepts](https://en.cppreference.com/w/cpp/language/constraints))
 
 ---
 
